@@ -1,5 +1,5 @@
 import logo from '../assets/logo.png';
-import  "../components/Header.css"
+import classes from "../components/Header.module.css"
 
 export default function Header() {
   let test = 5 ;
@@ -7,8 +7,8 @@ export default function Header() {
   return (
     <header>
       <img src={logo} alt="A canvas" />
-      <h1 style={{backgroundColor:"red"}}>ReactArt</h1>
-      <p>A community of artists and art-lovers. {check}</p>
+      <h1>ReactArt</h1>
+      <p className={classes.paragraph}>A community of artists and art-lovers. {check}</p>
     </header>
   );
 }

@@ -23,7 +23,7 @@ export default function AuthInputs() {
   return (
     <div id="auth-inputs">
       <div className="controls">
-        <p>
+        <p className='paragraph'>
           <label className={`label ${emailNotValid ? `invalid` : ``}`}>Email</label>
           <input
             type="email"
@@ -43,7 +43,7 @@ export default function AuthInputs() {
           />
         </p>
       </div>
-      <p>some text</p>
+     
       <div className="actions">
         <button type="button" className="text-button">
           Create a new account
