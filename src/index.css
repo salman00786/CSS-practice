@@ -38,14 +38,14 @@ button:focus {
   color: white;
 }
 
-.controls {
+/* .controls {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
-}
+} */
 
-.controls label {
+/* .controls label {
   display: block;
   margin-bottom: 0.5rem;
   font-size: 0.75rem;
@@ -53,7 +53,7 @@ button:focus {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #6b7280;
-}
+} */
 
 .controls input {
   width: 100%;
@@ -73,7 +73,7 @@ label.invalid {
 input.invalid {
   color: #ef4444;
   border-color: #f73f3f;
-  background-color: #fed2d2;
+  background-color: #fed2d2; 
 }
 
 .actions {
@@ -83,14 +83,14 @@ input.invalid {
 }
 
 .button {
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 0.25rem;
   color: #1f2937;
   background-color: #f0b322;
   border-radius: 6px;
-  border: none;
+  border: none; */
 }
 
 .button:hover {
